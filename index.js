@@ -34,7 +34,5 @@ app.use(function(err, req, res, next){
   }
 });
 
-if (!module.parent) {
   app.listen(process.env.PORT||3000);
   console.log('Express started on port %d', 3000);
-}
